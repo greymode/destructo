@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4076BA2127464700D60CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4076B92127464700D60CAF /* AppDelegate.swift */; };
+		5A4076BC2127464700D60CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4076BB2127464700D60CAF /* ViewController.swift */; };
+		5A4076BF2127464700D60CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4076BD2127464700D60CAF /* Main.storyboard */; };
+		5A4076C12127464900D60CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4076C02127464900D60CAF /* Assets.xcassets */; };
+		5A4076C42127464900D60CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4076C22127464900D60CAF /* LaunchScreen.storyboard */; };
+		5A4076CF2127464900D60CAF /* destructoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4076CE2127464900D60CAF /* destructoTests.swift */; };
+		5A4076DA2127464900D60CAF /* destructoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4076D92127464900D60CAF /* destructoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4076CB2127464900D60CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4076AE2127464700D60CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4076B52127464700D60CAF;
+			remoteInfo = destructo;
+		};
+		5A4076D62127464900D60CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4076AE2127464700D60CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4076B52127464700D60CAF;
+			remoteInfo = destructo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4076B62127464700D60CAF /* destructo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = destructo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4076B92127464700D60CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A4076BB2127464700D60CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A4076BE2127464700D60CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4076C02127464900D60CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4076C32127464900D60CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A4076C52127464900D60CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4076CA2127464900D60CAF /* destructoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destructoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4076CE2127464900D60CAF /* destructoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destructoTests.swift; sourceTree = "<group>"; };
+		5A4076D02127464900D60CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4076D52127464900D60CAF /* destructoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destructoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4076D92127464900D60CAF /* destructoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destructoUITests.swift; sourceTree = "<group>"; };
+		5A4076DB2127464900D60CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4076B32127464700D60CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4076C72127464900D60CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4076D22127464900D60CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4076AD2127464700D60CAF = {
+			isa = PBXGroup;
+			children = (
+				5A4076B82127464700D60CAF /* destructo */,
+				5A4076CD2127464900D60CAF /* destructoTests */,
+				5A4076D82127464900D60CAF /* destructoUITests */,
+				5A4076B72127464700D60CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4076B72127464700D60CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4076B62127464700D60CAF /* destructo.app */,
+				5A4076CA2127464900D60CAF /* destructoTests.xctest */,
+				5A4076D52127464900D60CAF /* destructoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4076B82127464700D60CAF /* destructo */ = {
+			isa = PBXGroup;
+			children = (
+				5A4076B92127464700D60CAF /* AppDelegate.swift */,
+				5A4076BB2127464700D60CAF /* ViewController.swift */,
+				5A4076BD2127464700D60CAF /* Main.storyboard */,
+				5A4076C02127464900D60CAF /* Assets.xcassets */,
+				5A4076C22127464900D60CAF /* LaunchScreen.storyboard */,
+				5A4076C52127464900D60CAF /* Info.plist */,
+			);
+			path = destructo;
+			sourceTree = "<group>";
+		};
+		5A4076CD2127464900D60CAF /* destructoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4076CE2127464900D60CAF /* destructoTests.swift */,
+				5A4076D02127464900D60CAF /* Info.plist */,
+			);
+			path = destructoTests;
+			sourceTree = "<group>";
+		};
+		5A4076D82127464900D60CAF /* destructoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4076D92127464900D60CAF /* destructoUITests.swift */,
+				5A4076DB2127464900D60CAF /* Info.plist */,
+			);
+			path = destructoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4076B52127464700D60CAF /* destructo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4076DE2127464900D60CAF /* Build configuration list for PBXNativeTarget "destructo" */;
+			buildPhases = (
+				5A4076B22127464700D60CAF /* Sources */,
+				5A4076B32127464700D60CAF /* Frameworks */,
+				5A4076B42127464700D60CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = destructo;
+			productName = destructo;
+			productReference = 5A4076B62127464700D60CAF /* destructo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4076C92127464900D60CAF /* destructoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4076E12127464900D60CAF /* Build configuration list for PBXNativeTarget "destructoTests" */;
+			buildPhases = (
+				5A4076C62127464900D60CAF /* Sources */,
+				5A4076C72127464900D60CAF /* Frameworks */,
+				5A4076C82127464900D60CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4076CC2127464900D60CAF /* PBXTargetDependency */,
+			);
+			name = destructoTests;
+			productName = destructoTests;
+			productReference = 5A4076CA2127464900D60CAF /* destructoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4076D42127464900D60CAF /* destructoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4076E42127464900D60CAF /* Build configuration list for PBXNativeTarget "destructoUITests" */;
+			buildPhases = (
+				5A4076D12127464900D60CAF /* Sources */,
+				5A4076D22127464900D60CAF /* Frameworks */,
+				5A4076D32127464900D60CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4076D72127464900D60CAF /* PBXTargetDependency */,
+			);
+			name = destructoUITests;
+			productName = destructoUITests;
+			productReference = 5A4076D52127464900D60CAF /* destructoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4076AE2127464700D60CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kiran Shields";
+				TargetAttributes = {
+					5A4076B52127464700D60CAF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5A4076C92127464900D60CAF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5A4076B52127464700D60CAF;
+					};
+					5A4076D42127464900D60CAF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5A4076B52127464700D60CAF;
+					};
+				};
+			};
+			buildConfigurationList = 5A4076B12127464700D60CAF /* Build configuration list for PBXProject "destructo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4076AD2127464700D60CAF;
+			productRefGroup = 5A4076B72127464700D60CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4076B52127464700D60CAF /* destructo */,
+				5A4076C92127464900D60CAF /* destructoTests */,
+				5A4076D42127464900D60CAF /* destructoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4076B42127464700D60CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4076C42127464900D60CAF /* LaunchScreen.storyboard in Resources */,
+				5A4076C12127464900D60CAF /* Assets.xcassets in Resources */,
+				5A4076BF2127464700D60CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4076C82127464900D60CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4076D32127464900D60CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4076B22127464700D60CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4076BC2127464700D60CAF /* ViewController.swift in Sources */,
+				5A4076BA2127464700D60CAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4076C62127464900D60CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4076CF2127464900D60CAF /* destructoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4076D12127464900D60CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4076DA2127464900D60CAF /* destructoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4076CC2127464900D60CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4076B52127464700D60CAF /* destructo */;
+			targetProxy = 5A4076CB2127464900D60CAF /* PBXContainerItemProxy */;
+		};
+		5A4076D72127464900D60CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4076B52127464700D60CAF /* destructo */;
+			targetProxy = 5A4076D62127464900D60CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4076BD2127464700D60CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4076BE2127464700D60CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4076C22127464900D60CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4076C32127464900D60CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4076DC2127464900D60CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A4076DD2127464900D60CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4076DF2127464900D60CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = destructo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = greyco.destructo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4076E02127464900D60CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = destructo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = greyco.destructo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4076E22127464900D60CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = destructoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = greyco.destructoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/destructo.app/destructo";
+			};
+			name = Debug;
+		};
+		5A4076E32127464900D60CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = destructoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = greyco.destructoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/destructo.app/destructo";
+			};
+			name = Release;
+		};
+		5A4076E52127464900D60CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = destructoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = greyco.destructoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = destructo;
+			};
+			name = Debug;
+		};
+		5A4076E62127464900D60CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = destructoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = greyco.destructoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = destructo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4076B12127464700D60CAF /* Build configuration list for PBXProject "destructo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4076DC2127464900D60CAF /* Debug */,
+				5A4076DD2127464900D60CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4076DE2127464900D60CAF /* Build configuration list for PBXNativeTarget "destructo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4076DF2127464900D60CAF /* Debug */,
+				5A4076E02127464900D60CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4076E12127464900D60CAF /* Build configuration list for PBXNativeTarget "destructoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4076E22127464900D60CAF /* Debug */,
+				5A4076E32127464900D60CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4076E42127464900D60CAF /* Build configuration list for PBXNativeTarget "destructoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4076E52127464900D60CAF /* Debug */,
+				5A4076E62127464900D60CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4076AE2127464700D60CAF /* Project object */;
+}
